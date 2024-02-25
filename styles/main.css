@@ -4,8 +4,9 @@ body {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     padding: 1%;
+    text-align: center;
 }
 
 section h1 {
@@ -23,18 +24,16 @@ section h1 {
     background-color: #fff;
     height: 425px;
     width: 313px;
-    float: left;
     padding: 1%;
     margin: 20px 20px;
     box-shadow: 2px 3px 14px 0px #0000008f;
     border-radius: 2% 5% 14% 2%;
-    align-content: center;
-    left: 10vw;
-    position: relative
+    display: inline-block;
 }
 
 .section-two h2 {
-    min-width: 500px;
+    min-width: 300px;
+    max-width: 700px;
     text-decoration: underline;
     padding: 5px;
     margin: auto;
@@ -57,9 +56,7 @@ section h1 {
     background-color: transparent;
     color: red;
     text-decoration: underline;
-    border-radius: inherit;
     width: 40%;
-    margin-left: 30%;
     border: none;
     cursor: pointer;
 }
@@ -92,8 +89,7 @@ img {
 }
 
 .section-three {
-    clear: both;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .section-three h2 {
@@ -105,15 +101,13 @@ img {
     background-color: #fff;
     height: 225px;
     width: 313px;
-    float: left;
     padding: 1%;
     margin: 20px 20px;
     box-shadow: -2px 4px 9px 2px #0000008f;
     border-radius: 2% 6% 23% 2%;
-    align-content: center;
-    left: 10vw;
-    position: relative;
     text-align: center;
+    background-color: #fff;
+    display: inline-block;
 }
 
 .section-three div h2 {
@@ -127,10 +121,8 @@ img {
 }
 
 footer {
-    clear: both;
     padding: 1px;
     text-align: center;
     background-color: red;
     color: #fff;
-    margin-bottom: 10px;
 }
