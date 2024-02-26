@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section:first-of-type {
+    background-color: #fff;
+}
+
+h1 {
+    background-color: rgb(180, 43, 43);
+    margin: auto;
+    width: 80vw;
+    padding: 6px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    box-shadow: 2px 3px 14px 0px #0000008f;
+}
+
+section {
+    padding: 1%;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #d1cdcd;
+}
+
+section h2 {
+    width: 50vw;
+    max-width: 700px;
+    min-width: 300px;
+    padding: 8px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 3px 14px 0px #0000008f;
+    margin: auto;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+section div {
+    display: inline-block;
+    height: 422px;
+    width: 315px;
+    padding: 1%;
+    margin: 20px 20px;
+    box-shadow: 2px 3px 14px 0px #0000008f;
+    border-radius: 2% 5% 14% 2%;
+    background-color: #f8f5f5;
+}
+
+section div h2 {
+    margin: 3% 0;
+    text-decoration: none;
+    width: auto;
+    padding: 8px;
+    background-color: transparent;
+    text-align: center;
+    box-shadow: none;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 2%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    margin: 3% 0;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(180, 43, 43);
+    cursor: pointer;
+}
+
+section:last-of-type {
+    min-height: 70vh;
+    padding: 1% 0;
+    width: 100vw;
+    background-color: transparent;
+}
+
+section:last-of-type h2 {
+    margin: 3% 0;
+    text-decoration: underline;
+    width: auto;
+    padding: 8px;
+    background-color: transparent;
+    text-align: center;
+    box-shadow: none;
+    margin: auto;
+}
+
+section:last-of-type div {
+    background-color: #fff;
+    height: 220px;
+    width: 313px;
+    box-shadow: -2px 4px 9px 2px #0000008f;
+    border-radius: 2% 6% 23% 2%;
+    margin: 20px 20px;
+    padding: 1%;
+}
+
+section:last-of-type div h2 {
+    text-decoration: none;
+}
+
+
+p:last-child {
+    margin: 0;
+    white-space: normal;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(156, 21, 21);
+    padding: 1% 0;
+    width: 100vw;
+}
